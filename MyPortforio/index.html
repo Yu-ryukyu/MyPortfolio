@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Higashimori's Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Yuka Higashimori's Portfolio">
+
+<link rel="stylesheet" href="css/style.css">
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="Simple Site"></a></h1>
+<nav id="menubar">
+<ul>
+<li><a href="#about">About Me</a></li>
+<li><a href="#myskill">My Skill</a></li>
+<li><a href="#link">link</a></li><li><a href="#contact">Contact</a></li></ul>
+</nav>
+</header>
+
+<div class="contents" id="about">
+
+<section id="about">
+<h2>About Me</h2>
+    <p>はじめまして。私のPortfolioをご覧いただき、ありがとうございます。</p>
+<h3>名 　 　 前</h3>
+<p>Higashimori</p>
+<h3>出　身　地</h3>
+<p>沖縄県（街も人も暖かい土地で過ごしていました。）</p>
+<h3>現　在　住</h3>
+<p>福岡県福岡市中央区</p>
+<h3>経 　 　 歴</h3>
+<p>高校卒業後、大手外資系企業の製品をサポートをする業務に約3年間従事しコミュニケーション能力を磨いてきました。<br>その後、沢山の可能性をもち多くの人を惹きつけるWeb制作に興味を持ちWeb制作や運営に携わる会社に転職。<br>
+    現在は、小さい企業から誰もが知っているような大きな企業のWeb制作や運営に携わっております。<br>
+    日々努力を怠らない会社の方々と仕事をし、刺激的な日々を送っています。</p>
+<h3>やりたいこと</h3>
+<p>人が不便と思うようなものを便利にするサービスを作りたいです。</p>
+</section>
+
+<section id="myskill">
+<h2>My Skill</h2>
+<i class="fab fa-html5 icon-big"></i>
+<i class="fab fa-css3-alt icon-big"></i>
+ <i class="fab fa-wordpress icon-big"></i>
+</section>
+
+<section id="link">
+    <h2>Link</h2>
+        <a href="https://www.facebook.com/yu.higashimori"><i class="fab fa-facebook-square icon-big"></i></a>
+        <a href="https://twitter.com/Ryu____h"><i class="fab fa-twitter icon-big"></i></a>
+        <a href="https://github.com"><i class="fab fa-github-square icon-big"></i></a>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <form class="contactform" action="contact.php" method="post">
+        <label for="name">お　　名　　前</label></br>
+        <input type="text" id="form" name="name" required></br>
+        <label for="name">メールアドレス</label></br>
+        <input type="text" id="form" name="email" required></br>
+        <label for="name">内　　　　　容</label><br>
+        <textarea type="text" id="form" name="content" required></textarea></br>
+        <input type="hidden" id="token" name="token" value="123">
+        <button class="contactform" type="submit">送信</button>
+    </form>
+
+</section>
+
+<p class="pagetop"><a href="#">↑</a></p>
+
+</div>
+<!--/contents-->
+
+<footer>
+<a href="index.html">Higashimori's Portfolio</a>
+</footer>
+
+<!--背景用の画像の読み込み-->
+<aside id="bg"><img src="images/bg.jpg" class="landscape"><img src="images/bg2.jpg" class="portrait"></aside>
+</body>
+</html>
