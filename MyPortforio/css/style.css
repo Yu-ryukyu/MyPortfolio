@@ -95,7 +95,7 @@ header {
 	background: #fff;
 	background: rgba(255,255,255,0.9);	
 	padding: 4%;
-	margin-bottom: 80%;
+	margin-bottom: 60%;
 }
 
 /*My Skill*/
@@ -120,8 +120,8 @@ textarea#form {
 	height: 200px;
 }
 
-button.contactform {
-	width: 10%;
+button.submit_btn {
+	width: 21%;
     height: 35px;
     margin: 10px;
     cursor: pointer;
@@ -134,7 +134,7 @@ footer {
 	padding: 10px 0px;
 	color: #fff;
 	text-shadow: 1px 1px rgba(0,0,0,0.8);
-	margin-top: -70%;
+	margin-top: -40%;
 }
 footer a {
 	text-decoration: none;
@@ -234,6 +234,16 @@ p {
 	padding: 0px 10px 20px;
 }
 
+/* ヘッダー */
+header {
+	height: 60%;
+}
+
+/* メニューの設定 */
+#menubar {
+	top: 18%;
+}
+
 /*メニュー１個あたりの設定*/
 #menubar li a {
 	font-size: 16px;
@@ -245,6 +255,23 @@ p {
 /*My Skill 画像の設定*/
 .icon-big {
 	width: 30%;
+}
+
+.contactform {
+	text-align: center;
+}
+
+.submit_btn {
+	width: auto;
+}
+
+footer {
+	clear: both;
+    text-align: center;
+    padding: 10px 0px;
+    color: #fff;
+    text-shadow: 1px 1px rgba(0,0,0,0.8);
+    margin-top: -35%;
 }
 
 }
